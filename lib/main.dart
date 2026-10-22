@@ -1513,5 +1513,3 @@ class _ExpenseTrackerScreenState extends State<ExpenseTrackerScreen> {
     );
   }
 }
-
-
