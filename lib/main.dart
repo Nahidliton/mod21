@@ -1514,15 +1514,4 @@ class _ExpenseTrackerScreenState extends State<ExpenseTrackerScreen> {
   }
 }
 
-colourpicker: ^1.0.3
-headers: ^1.1.1
-datetime_picker_formfield: ^2.0.0
-DataCell(AboutDialog(
-  applicationName: 'Smart Expense Tracker',
-  applicationVersion: '1.0.0',
-  applicationIcon: Icon(Icons.account_balance_wallet),
-  children: [
-    Text('A simple and smart expense tracking app.'),
-    Text('Developed with Flutter.'),
-  ],
-))
+
