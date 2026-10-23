@@ -236,8 +236,6 @@ class _ExpenseTrackerScreenState extends State<ExpenseTrackerScreen> {
   String _selectedCategory = 'Food';
   DateTime _selectedDate = DateTime.now();
 
-  List<String> get _categoryNames => _categories.map((c) => c.name).toList();
-
   ExpenseCategory _getCategoryByName(String name) {
     return _categories.firstWhere(
       (c) => c.name == name,
